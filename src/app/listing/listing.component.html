@@ -1,0 +1,12 @@
+
+<div *ngFor="let post of posts">
+<md-card>
+<md-card-title>{{post.title}}</md-card-title>
+<md-card-subtitle style="text-align: right">by {{post.user}} , {{post.time_ago}} </md-card-subtitle>
+<md-card-actions >
+<button md-raised-button>Upvote</button>
+
+</md-card-actions>
+</md-card>
+</div>
+<hr/>
