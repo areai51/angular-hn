@@ -5,7 +5,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ListingComponent } from './listing/listing.component';
-import { HnComponentsModule } from './hn-components.module';
+import { HnComponentsModule } from './shared/hn-components.module';
 
 @NgModule({
   declarations: [
